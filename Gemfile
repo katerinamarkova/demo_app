@@ -2,12 +2,12 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.6'
 
-# gem 'sqlite3-ruby', '1.3.2', :group => :development
+gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -22,7 +22,6 @@ gem 'sqlite3'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
